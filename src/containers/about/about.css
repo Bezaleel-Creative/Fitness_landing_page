@@ -1,0 +1,141 @@
+.about-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.about-img{
+    width: 100%;
+    padding: 1rem;
+    position: relative;
+}
+
+.about-img-container{
+    padding: 1rem 1rem 1.5rem;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px 3px #cacacac2;
+}
+
+.about-img-container img{
+    width: 100%;
+}
+
+.word-frame{
+    position: absolute;
+    bottom: -20%;
+    right: 0;
+    width: 85%;
+    padding: 3rem 4rem;
+    box-shadow: 2px 4px 8px 3px #80808067;
+    background-color: #fff;
+    border-left: 10px solid #26253a;
+}
+
+.word-frame p{
+    font-family: cursive;
+    font-weight: 600;
+    line-height: 2;
+    font-size: 1.8;
+}
+
+.about-text {
+    padding: 2rem 4rem;
+}
+
+.about-text h2 {
+    color: #26253a;
+    letter-spacing: 5px;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+
+.about-text p{
+    font-size: 1.3rem;
+    color: #3333339a;
+    margin-bottom: 1rem;
+}
+
+.about-btn{
+    color: #26253a;
+    border: 2px solid #26253a;
+    padding: 15px 25px;
+    font-weight: 700;
+    transition: .4s;
+    margin-top: 3rem;
+    width: fit-content;
+    display: block;
+}
+
+.about-btn:hover{
+    color: #fff;
+    background-color: #26253a;
+}
+
+
+@media screen and (max-width:1000px) {
+    .about-grid{
+        display: block;
+        height: fit-content;
+    }
+
+    .about-img{
+        max-width: 700px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .word-frame{
+        bottom: -5%;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    .about-btn {
+        margin: 2rem auto auto;
+    }
+
+    .word-frame{
+        text-align: center;
+    }
+
+    .about-text h2 {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width:678px) {
+    .about-text {
+        padding: 2rem;
+    }
+
+    .word-frame{
+        position: unset;
+        width: 100%;
+        padding: 3rem 4rem;
+    }
+}
+
+@media screen and (max-width:568px) {
+    .about-text {
+        padding: 2rem 1rem;
+    }
+
+    .word-frame{
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .about-text h2 {
+        font-size: 1.5rem;
+    }
+    .about-text p {
+        font-size: 1.2rem;
+    }
+}

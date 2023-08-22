@@ -1,0 +1,138 @@
+.trainers {
+    background-color: #cacaca41;
+    text-align: center;
+}
+.trainers h2 {
+    color: #26253a;
+    letter-spacing: 5px;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+.trainers p{
+    font-size: 1.3rem;
+    color: #3333339a;
+    margin-bottom: 3rem;
+}
+
+.trainers-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    width: fit-content;
+    margin: auto;
+}
+
+.trainer-container {
+    width: 350px;
+}
+
+.trainer-container div img{
+    width: 100%;
+}
+
+.trainer-container p{
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.trainer-img{
+    position: relative;
+    height: auto;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.overlay{
+    width: inherit;
+    height: 100%;
+    background-color: #26253aa6;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: .35s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.trainer-img:hover .overlay{
+    opacity: 1;
+    transform: scale(.9);
+}
+
+.overlay h4{
+    font-size: 1.9rem;
+    color: #fff;
+    letter-spacing: 10px;
+}
+
+.overlay h5{
+    font-family: cursive;
+    font-size: 1.5rem;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.trainer-socials{
+    display: flex;
+    gap: 5px;
+    width: fit-content;
+    margin: 2rem auto;
+}
+
+.trainer-socials a{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trainer-socials a:hover{
+    background-color: #eeeeee9a;
+}
+
+
+
+@media screen and (max-width:1200px) {
+    .trainer-container {
+        width: 280px;
+    }
+}
+
+@media screen and (max-width:998px) {
+    .trainers-img{
+        gap: 15px;
+    }
+    .trainer-container {
+        width: 250px;
+    }
+}
+
+
+@media screen and (max-width:850px) {
+    .trainers-img{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 30px;
+    }
+
+    .trainer-container {
+        width: 270px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .trainers-img{
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 30px;
+    }
+
+    .trainer-container {
+        width: 300px;
+    }
+}

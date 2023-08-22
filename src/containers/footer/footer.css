@@ -1,0 +1,103 @@
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.footer h2{
+    /* color: #26253a; */
+    color: #fff;
+    letter-spacing: 5px;
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.footer-about{
+    color: #eeeeee67;
+    font-size: 1rem;
+    line-height: 24px;
+}
+
+.session{
+    color: #fff;
+    font-size: .8rem;
+    font-weight: 800;
+    margin-bottom: .5rem;
+}
+
+.time{
+    color: #eeeeee67;
+    font-size: 1rem;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.day-time{
+    margin-bottom: 1.5rem;
+}
+
+.icons{
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons a{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .35s;
+}
+
+.icons a:hover{
+    background-color: #eeeeee9a;
+}
+
+.copywrite{
+    text-align: center;
+    width: fit-content;
+    margin: 3rem auto 0;
+}
+
+.copywrite p{
+    color: #eeeeee2a;
+    font-size: .9rem;
+}
+
+
+@media screen and (max-width:778px) {
+    .footer{
+        display: block;
+        text-align: center;
+    }
+
+    .day-time{
+        margin-bottom: 1rem;
+    }
+
+    .footer h2{
+        letter-spacing: 3px;
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .footer-container{
+        margin-bottom: 3rem;
+    }
+
+    .icons{
+        margin: auto;
+    }
+
+    .copywrite{
+        margin: 0rem auto 0;
+    }
+}
