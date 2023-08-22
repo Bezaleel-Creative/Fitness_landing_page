@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { FaFacebookF, FaTwitter, FaDribbble, FaBehance, FaGooglePlusG } from "react-icons/fa6";
+import { FaFacebookF, FaTwitter, FaDribbble, FaBehance, FaGooglePlusG } from "react-icons/fa";
 
 import './footer.css';
 
