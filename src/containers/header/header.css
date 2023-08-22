@@ -53,7 +53,7 @@
     width: 450px;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .hero-text h4{

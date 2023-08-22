@@ -32,14 +32,18 @@ const Header = () => {
         <div className='hero-text'>
           <h4 data-aos="zoom-in-down" data-aos-duration="1500">Hello! you are welcome to</h4>
           <h1 data-aos="fade-up" data-aos-duration="2000">PROFESSIONAL FITNESS CLUB</h1>
-          <a href='#about' className='btn' data-aos="fade-up" data-aos-duration="2000">LEARN MORE</a>
+          <div data-aos="fade-up" data-aos-duration="2000">
+            <a href='#about' className='btn'>LEARN MORE</a>
+          </div>
         </div>
       </SwiperSlide>
       <SwiperSlide className='imageTwo'>
         <div className='hero-text'>
           <h4 data-aos="zoom-in-down" data-aos-duration="1500">Hello! you are welcome to</h4>
           <h1 data-aos="fade-up" data-aos-duration="2000">PROFESSIONAL FITNESS CLUB</h1>
-          <a href='#about' className='btn' data-aos="fade-up" data-aos-duration="2000">LEARN MORE</a>
+          <div data-aos="fade-up" data-aos-duration="2000">
+            <a href='#about' className='btn'>LEARN MORE</a>
+          </div>
         </div>
       </SwiperSlide>
     </Swiper>

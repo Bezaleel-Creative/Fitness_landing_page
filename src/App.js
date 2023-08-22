@@ -29,7 +29,6 @@ const App = () => {
   });
   return (
     <div className='bg-white'>
-      <div className=''>
         <div className='nav-header'>
           <Navbar />
           <Header />
@@ -43,9 +42,6 @@ const App = () => {
           <Testimonial />
         </div>
         <Footer />
-      </div>
-      <div className='loader'>
-      </div>
     </div>
   )
 }

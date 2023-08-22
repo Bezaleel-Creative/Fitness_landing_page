@@ -21,9 +21,11 @@ const About = () => {
 
           <p>Fitness web template includes total 2 pages. This is an index (main) page and another is a <a href='blog'>blog page</a>.</p>
 
-          <a href='#trainer' className='about-btn' data-aos="fade-up" data-aos-duration="2500">
-            LET US BEGIN
-          </a>
+          <div data-aos="fade-up" data-aos-duration="2500">
+            <a href='#trainer' className='about-btn' >
+              LET US BEGIN
+            </a>
+          </div>
         </div>
       </div>
     </div>

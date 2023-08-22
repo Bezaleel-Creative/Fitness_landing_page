@@ -57,7 +57,7 @@
     justify-content: center;
 }
 
-.blog-card:hover{
+.blog-card:hover {
     background-image: url(../../assets/blog-thumb.jpg);
     background-size: cover;
     background-position: center;

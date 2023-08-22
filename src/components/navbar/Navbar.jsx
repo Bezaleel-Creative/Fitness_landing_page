@@ -36,8 +36,9 @@ const Navbar = () => {
             : <RiMenu3Line color="#333" size={27} onClick={()=> setToggleMenu(true)} cursor="pointer" />
           }
           {toggleMenu && (
-            <div className='navbar-menu-links animate__fadeInDown'>
-              <div className='navbar-menu-links-container animate__fadeInDown' >
+            <div className='navbar-menu-links animate__fadeInDown' >
+              <div className='navbar-menu-links-container animate__fadeInDown' data-aos="fade-right"
+              data-aos-easing="ease-in-sine">
                 <Menu />
               </div>
             </div>
